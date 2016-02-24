@@ -678,8 +678,8 @@ do
 
         # Configure php-apc
         sudo sh -c "echo \"cgi.fix_pathinfo = 0;\" >> /etc/php5/fpm/php.ini"
-        sudo cp etc/php5/apc.ini /etc/php5/conf.d/20-apc.ini
-        sudo chmod 644 /etc/php5/conf.d/20-apc.ini
+        #sudo cp etc/php5/apc.ini /etc/php5/conf.d/20-apc.ini
+        #sudo chmod 644 /etc/php5/conf.d/20-apc.ini
 
         sudo cp etc/sudoers.d/RPI_Cam_Web_Interface /etc/sudoers.d/
         sudo chmod 440 /etc/sudoers.d/RPI_Cam_Web_Interface
